@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.detail {
+  background-color: #fff;
+  width: 50vw;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form {
+  margin: 20px 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+.name, .ex_name, .gender, .email, .ex_email, .postcode, .ex_postcode, .address, .ex_address, .building, .ex_building, .contact{
+  margin: 10px;
+}
+
+.fullname {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgba(155, 154, 154, 0.945);
+  outline: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+input[type=radio] {
+    width: 40px;
+    height: 50px;
+    border:rgb(0, 0, 0);
+    vertical-align: middle;
+}
+
+.mail, .post, .ad, .build {
+  font-size: 15px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid rgba(155, 154, 154, 0.945);
+  outline: none;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.text {
+  resize: none;
+  font-size: 15px;
+  width:80%;
+  height: 100px;
+  border: 1px solid rgba(155, 154, 154, 0.945);
+  outline: none;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.ex_name, .ex_email, .ex_postcode, .ex_address, .ex_building {
+  color: rgba(155, 154, 154, 0.945);
+}
+
+th {
+  text-align: left;
+}
+
+span {
+  color: red
+}
+
+.confirm {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color:#fff;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  margin: 20px auto 0;
+}
+
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  color:#fff;
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+
+.btn{
+  margin: 50px 400px;
+}
