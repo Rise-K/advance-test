@@ -12,8 +12,8 @@ class ContentController extends Controller
     private $contentItems = ["fullname", "gender", "email","postcode","address","opinion"];
 
 	private $validator = [
-		// 'fullname' => 'required',
-        // 'gender' => 'required',
+		'fullname' => 'required',
+        'gender' => 'required',
         'email'  => 'required|email',
         'postcode'  => 'required|max:8',
         'address'  => 'required',
@@ -45,14 +45,7 @@ class ContentController extends Controller
 
     public function confirm(Request $request)
     {
-        //セッションから値を取り出す
 		$input = $request->session()->get("form_input");
-
-		// //セッションに値が無い時はフォームに戻る
-		// if(!$input){
-		// 	return redirect("/content");
-		// }
-		// return view("index",["input" => $input]);
     }
 
     public function send(Request $request)

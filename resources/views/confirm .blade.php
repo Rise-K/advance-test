@@ -13,10 +13,10 @@ $title = "内容確認"
         <th>お名前<span>※</span></th>
         <td>{{$input['fullname']}}</td>
       </tr>
-      {{-- <tr>
+      <tr>
         <th>性別<span>※</span></th>
         <td>{{$input['gender']}}</td>
-      </tr> --}}
+      </tr>
       <tr>
         <th>メールアドレス<span>※</span></th>
         <td>{{$input['email']}}</td>
